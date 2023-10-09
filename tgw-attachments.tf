@@ -1,7 +1,7 @@
 
 // Additional codes for creating TGW and attachements
 # Creation of the TGW and the attachments
-/*
+
 # To create the TGW
 resource "aws_ec2_transit_gateway" "tgw-central" {
   description = var.tgw-name
@@ -90,4 +90,4 @@ resource "aws_ec2_transit_gateway_route" "rt-to-security-vpc" {
   transit_gateway_attachment_id  = aws_ec2_transit_gateway_vpc_attachment.tgw-security-attachment.id
   transit_gateway_route_table_id = aws_ec2_transit_gateway_route_table.tgw-rt-spoke.id
 }
-*/
+
