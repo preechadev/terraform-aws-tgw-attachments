@@ -1,0 +1,1 @@
+# terraform-aws-tgw-attachments
